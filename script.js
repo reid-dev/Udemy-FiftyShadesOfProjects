@@ -9,14 +9,13 @@ function loadProjects() {
         const proEl= document.createElement('div');
         proEl.classList.add('project');
         proEl.innerHTML=`
+        <a class="project-a" href='${project.url}'>
         <h3 class="projecttitle" id="projecttitle">${project.name}</h3>
-        <button class="projectlink-btn" id="projectlink-btn" onclick="window.location.href='${project.url}';" >
-            <i class="fa-solid fa-arrow-trend-up"></i>
-        </button>
         <p class="projectdescripton" id="projectdescription">
         ${project.description}
         </p>  
         </div>
+        </a>
         `
         document.getElementById("projects").appendChild(proEl)
 
