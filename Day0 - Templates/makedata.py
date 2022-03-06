@@ -11,10 +11,12 @@ for subfolder in subfolders:
 
     if subfolder == '.git':
         pass
-    if '-' not in subfolder:
+    elif subfolder == 'Day0 - Templates':
+        pass
+    elif '-' not in subfolder:
         pass
     else:
-        stripped = subfolder.split('-', 1)[1]
+        stripped = subfolder.split('-', 1)[1].strip()
         file.write(str('{\n\tname: "' + stripped + '",\n\tdescription:"Description added later",\n\turl: "./'+subfolder+'/index.html"\n },\n'))
 
 file.write(str("]"))
