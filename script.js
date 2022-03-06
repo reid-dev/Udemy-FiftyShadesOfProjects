@@ -1,7 +1,6 @@
 import Projects from './Day0 - Templates/projectdata.js'
 
 const projects = Projects;
-
 loadProjects()
 
 function loadProjects() {
