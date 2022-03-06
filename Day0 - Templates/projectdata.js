@@ -40,6 +40,11 @@ const Projects = [
 	url: "./Day16 - Drink Water/index.html"
  },
 {
+	name: "Movie App",
+	description:"Description added later",
+	url: "./Day17 - Movie App/index.html"
+ },
+{
 	name: "Progress Bars",
 	description:"Description added later",
 	url: "./Day2 - Progress Bars/index.html"
