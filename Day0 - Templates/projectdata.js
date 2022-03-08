@@ -45,9 +45,29 @@ const Projects = [
 	url: "./Day17 - Movie App/index.html"
  },
 {
+	name: "Background Slider",
+	description:"Description added later",
+	url: "./Day18 - Background Slider/index.html"
+ },
+{
+	name: "Tick Tock",
+	description:"Description added later",
+	url: "./Day19 - Tick Tock/index.html"
+ },
+{
 	name: "Progress Bars",
 	description:"Description added later",
 	url: "./Day2 - Progress Bars/index.html"
+ },
+{
+	name: "Ripple Button",
+	description:"Description added later",
+	url: "./Day20 - Ripple Button/index.html"
+ },
+{
+	name: "Drag n Drop",
+	description:"Description added later",
+	url: "./Day21 - Drag n Drop/index.html"
  },
 {
 	name: "Navigation Rotation",
