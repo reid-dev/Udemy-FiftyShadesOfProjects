@@ -70,9 +70,59 @@ const Projects = [
 	url: "./Day21 - Drag n Drop/index.html"
  },
 {
+	name: "Drawing App",
+	description:"Description added later",
+	url: "./Day22 - Drawing App/index.html"
+ },
+{
+	name: "Kinetic CSS Loader",
+	description:"Description added later",
+	url: "./Day23 - Kinetic CSS Loader/index.html"
+ },
+{
+	name: "Content Placeholder",
+	description:"Description added later",
+	url: "./Day24 - Content Placeholder/index.html"
+ },
+{
+	name: "Sticky Nav",
+	description:"Description added later",
+	url: "./Day25 - Sticky Nav/index.html"
+ },
+{
+	name: "Vertical Slider",
+	description:"Description added later",
+	url: "./Day26 - Vertical Slider/index.html"
+ },
+{
+	name: "Toast Notification",
+	description:"Description added later",
+	url: "./Day27 - Toast Notification/index.html"
+ },
+{
+	name: "Github Profile Card",
+	description:"Description added later",
+	url: "./Day28 - Github Profile Card/index.html"
+ },
+{
+	name: "Double Heart Click",
+	description:"Description added later",
+	url: "./Day29 - Double Heart Click/index.html"
+ },
+{
 	name: "Navigation Rotation",
 	description:"Description added later",
 	url: "./Day3 - Navigation Rotation/index.html"
+ },
+{
+	name: "Auto Text Effect",
+	description:"Description added later",
+	url: "./Day30 - Auto Text Effect/index.html"
+ },
+{
+	name: "Password Generator",
+	description:"Description added later",
+	url: "./Day31 - Password Generator/index.html"
  },
 {
 	name: "Hidden Search Widget",
