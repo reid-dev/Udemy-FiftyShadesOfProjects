@@ -24,6 +24,4 @@ for subfolder in subfolders:
         file.write(str('{\n\tname: "' + stripped + '",\n\tdescription:"Description added later",\n\turl: "./'+subfolder+'/index.html"\n },\n'))
 
 file.write(str("]"))
-
-# Add final export
 file.write(str("\n\nexport default Projects"))

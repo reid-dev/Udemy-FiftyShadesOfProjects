@@ -200,3 +200,5 @@ const Projects = [
 	url: "./Day9 - Sound Board/index.html"
  },
 ]
+
+export default Projects
