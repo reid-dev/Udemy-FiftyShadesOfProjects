@@ -1,10 +1,14 @@
 # Python Script used to create all the needed folders and copy the base template files. 
 import os 
 
+# Read the folders 
 folder = '../../Udemy-FiftyShadesOfProjects'
 subfolders = [name for name in os.listdir(folder) if os.path.isdir(os.path.join(folder, name))]
 
+# Open needed file
 file = open('projectdata.js', 'w')
+
+# Create start of array
 file.write(str("const Projects = [ \n"))
 
 for subfolder in subfolders:
@@ -20,4 +24,6 @@ for subfolder in subfolders:
         file.write(str('{\n\tname: "' + stripped + '",\n\tdescription:"Description added later",\n\turl: "./'+subfolder+'/index.html"\n },\n'))
 
 file.write(str("]"))
+
+# Add final export
 file.write(str("\n\nexport default Projects"))

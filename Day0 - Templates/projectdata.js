@@ -125,9 +125,54 @@ const Projects = [
 	url: "./Day31 - Password Generator/index.html"
  },
 {
+	name: "Checkboxes",
+	description:"Description added later",
+	url: "./Day32 - Checkboxes/index.html"
+ },
+{
+	name: "Notes App",
+	description:"Description added later",
+	url: "./Day33 - Notes App/index.html"
+ },
+{
+	name: "Countdown",
+	description:"Description added later",
+	url: "./Day34 - Countdown/index.html"
+ },
+{
+	name: "Image Carousel",
+	description:"Description added later",
+	url: "./Day35 - Image Carousel/index.html"
+ },
+{
+	name: "Hoverboard",
+	description:"Description added later",
+	url: "./Day36 - Hoverboard/index.html"
+ },
+{
+	name: "Pokedex",
+	description:"Description added later",
+	url: "./Day37 - Pokedex/index.html"
+ },
+{
+	name: "Mobile Tab Nav",
+	description:"Description added later",
+	url: "./Day38 - Mobile Tab Nav/index.html"
+ },
+{
+	name: "Password Strength Visualizer",
+	description:"Description added later",
+	url: "./Day39 - Password Strength Visualizer/index.html"
+ },
+{
 	name: "Hidden Search Widget",
 	description:"Description added later",
 	url: "./Day4 - Hidden Search Widget/index.html"
+ },
+{
+	name: "3D Boxes",
+	description:"Description added later",
+	url: "./Day40 - 3D Boxes/index.html"
  },
 {
 	name: "Blurry Loading",
@@ -155,5 +200,3 @@ const Projects = [
 	url: "./Day9 - Sound Board/index.html"
  },
 ]
-
-export default Projects
