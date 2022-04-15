@@ -1,5 +1,6 @@
 const poke_container = document.getElementById('poke-container')
 const pokemon_count = 898
+const listItems = []
 const colors = {
     fire: '#FDDFDF',
     grass: '#DEFDE0',
@@ -19,6 +20,17 @@ const colors = {
 
 const main_types = Object.keys(colors)
 
+function filterData(searchTerm) {
+    listItems.forEach(item => {
+        if(item.innerText.toLowerCase().includes(searchTerm.toLowerCase())) {
+            item.classList.remove('hide');
+        } else {
+            item.classList.add('hide');
+        }
+        
+    })
+}
+
 const fetchPokemons = async () => {
     for(let i = 1; i <= pokemon_count; i++) {
         await getPokemon(i)
@@ -34,6 +46,7 @@ const getPokemon = async (id) => {
 
 const createPokemonCard = (pokemon) => {
     const pokemonEl = document.createElement('div')
+    listItems.push(pokemonEl)
     pokemonEl.classList.add('pokemon')
 
     let name = pokemon.name[0].toUpperCase() + pokemon.name.slice(1)
@@ -66,3 +79,4 @@ const createPokemonCard = (pokemon) => {
 }
 
 fetchPokemons()
+filter.addEventListener('input', (e) => filterData(e.target.value));
